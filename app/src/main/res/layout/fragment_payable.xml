@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anupkumarsingh.bmap.PayableFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/my_margin"
+        android:padding="8dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/payable_list"></ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/addPartyButton"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Add Party"
+                android:layout_weight="2"
+                />
+
+            <Button
+                android:id="@+id/addTransactionButton"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Add Transaction"
+                android:layout_weight="3"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

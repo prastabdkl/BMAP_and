@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:textSize="18sp"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                android:textColor="#FFFFFF"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/name_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="Name"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/name_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/email_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="Email"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/email_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/address_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="Address"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/address_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/bank_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="Bank Name"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/bank_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/account_no_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="Account No"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/account_no_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/nationality_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="Nationality"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/nationality_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:textSize="18sp"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                android:textColor="#FFFFFF"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/home_contact_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="home"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/home_contact_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/work_contact_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="mobile"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/work_contact_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/mobile_contact_key"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="work"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/mobile_contact_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <Button
+            android:id="@+id/account_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account info"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

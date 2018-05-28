@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/sign_in"
+            android:title="Sign in"
+            android:icon="@android:drawable/sym_def_app_icon">
+        </item>
+
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@android:drawable/sym_def_app_icon">
+        </item>
+
+        <item
+            android:id="@+id/backup_id"
+            android:title="Backup and Restore"
+            android:icon="@android:drawable/sym_def_app_icon">
+        </item>
+
+        <item
+            android:id="@+id/setting_id"
+            android:title="Settings"
+            android:icon="@android:drawable/star_on">
+        </item>
+
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:title="Contact Us"
+                android:id="@+id/contact_us"
+                android:icon="@android:drawable/sym_contact_card"
+                ></item>
+            <item
+                android:title="Rate this app"
+                android:id="@+id/id_rate"
+                android:icon="@android:drawable/sym_def_app_icon"
+                ></item>
+            <item
+                android:title="Share"
+                android:id="@+id/id_share"
+                android:icon="@android:drawable/sym_def_app_icon"
+                ></item>
+        </menu>
+    </item>
+</menu>
